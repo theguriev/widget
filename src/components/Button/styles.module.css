@@ -1,0 +1,38 @@
+.list,
+.circle {
+  border: 0;
+  background: var(--chicago);
+  box-shadow: var(--shadow-button);
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 14px;
+}
+
+.list {
+  border-radius: 24px;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle svg {
+  width: 100%;
+  height: 100%;
+}
+
+.list svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.list:hover,
+.circle:hover {
+  background: var(--cairo);
+}

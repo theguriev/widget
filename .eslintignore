@@ -1,0 +1,9 @@
+dist/
+.next/
+/**/*.spec.ts
+/**/*.spec.tsx
+/**/*.test.ts
+/**/*.test.tsx
+jest.config.js
+mocks/**/*.js
+build.js

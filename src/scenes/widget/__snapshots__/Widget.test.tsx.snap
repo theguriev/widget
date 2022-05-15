@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widget renders Widget minimized and closed 1`] = `
+<DocumentFragment>
+  <div
+    class="widget"
+  >
+    <div
+      class="list"
+    >
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgSms"
+        />
+        SMS
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgFacebookMessenger"
+        />
+        Messenger
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgInstagram"
+        />
+        Instagram
+      </button>
+    </div>
+    <button
+      class="circle startButton dots"
+      type="button"
+    >
+      <div
+        class="dot"
+      />
+      <div
+        class="dot"
+      />
+      <div
+        class="dot"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Widget renders Widget minimized and open 1`] = `
+<DocumentFragment>
+  <div
+    class="widget"
+  >
+    <div
+      class="list open"
+    >
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgSms"
+        />
+        SMS
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgFacebookMessenger"
+        />
+        Messenger
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgInstagram"
+        />
+        Instagram
+      </button>
+    </div>
+    <button
+      class="circle"
+      type="button"
+    >
+      <svg
+        data-file-name="SvgX"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Widget renders Widget not minimized and closed 1`] = `
+<DocumentFragment>
+  <div
+    class="widget"
+  >
+    <div
+      class="list"
+    >
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgSms"
+        />
+        SMS
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgFacebookMessenger"
+        />
+        Messenger
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgInstagram"
+        />
+        Instagram
+      </button>
+    </div>
+    <button
+      class="list startButton"
+      type="button"
+    >
+      <svg
+        data-file-name="SvgSms"
+      />
+      <svg
+        data-file-name="SvgFacebookMessenger"
+      />
+      <svg
+        data-file-name="SvgInstagram"
+      />
+      Message us
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Widget renders Widget not minimized and open 1`] = `
+<DocumentFragment>
+  <div
+    class="widget"
+  >
+    <div
+      class="list open"
+    >
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgSms"
+        />
+        SMS
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgFacebookMessenger"
+        />
+        Messenger
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgInstagram"
+        />
+        Instagram
+      </button>
+    </div>
+    <button
+      class="circle"
+      type="button"
+    >
+      <svg
+        data-file-name="SvgX"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

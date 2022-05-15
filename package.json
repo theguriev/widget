@@ -1,0 +1,48 @@
+{
+  "name": "widget",
+  "version": "1.0.0",
+  "description": "The symple messenger widget",
+  "main": "./dist/index.js",
+  "source": "./src/index.tsx",
+  "embeded": "./src/embeded.tsx",
+  "author": "Eugen Guriev <gurievcreative@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build": "node ./build.js",
+    "watch": "node ./build.js --watch",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@types/jest": "^27.5.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "esbuild": "^0.14.39",
+    "esbuild-css-modules-plugin": "^2.2.16",
+    "esbuild-jest": "^0.5.0",
+    "esbuild-plugin-svgr": "^1.0.1",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-svg-transformer": "^1.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders app 1`] = `
+<DocumentFragment>
+  <div
+    class="widget"
+  >
+    <div
+      class="list"
+    >
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgSms"
+        />
+        SMS
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgFacebookMessenger"
+        />
+        Messenger
+      </button>
+      <button
+        class="list"
+        type="button"
+      >
+        <svg
+          data-file-name="SvgInstagram"
+        />
+        Instagram
+      </button>
+    </div>
+    <button
+      class="list startButton"
+      type="button"
+    >
+      <svg
+        data-file-name="SvgSms"
+      />
+      <svg
+        data-file-name="SvgFacebookMessenger"
+      />
+      <svg
+        data-file-name="SvgInstagram"
+      />
+      Message us
+    </button>
+  </div>
+</DocumentFragment>
+`;
